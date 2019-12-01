@@ -1,0 +1,4 @@
+(function() { 
+  Accions.init();
+})();
+  

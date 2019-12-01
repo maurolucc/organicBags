@@ -1,0 +1,182 @@
+/*!
+ * Start Bootstrap - Logo Nav (https://startbootstrap.com/template-overviews/logo-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logo-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.bg-dark {
+  background-color: #84bff0!important;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  display:block;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #84bff0;
+  width: 80%;
+  
+}
+#mainContent{
+  max-width: 1400px;
+
+}
+
+#missatgeInfo{
+  word-break: break-all;
+}
+/* The Close Button */
+.close {
+  color: #84bff0;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.dateInput{
+  width: 100%;
+  border-radius: 5px;
+  
+}
+
+table {
+  font-family: arial, sans-serif;
+  font-size:12px;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+
+#titlePortal{
+  color:#84bff0;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  width: 25%;
+}
+
+#petits{
+  width: 10%;
+}
+
+#grans{
+  width: 40%;
+  max-width: initial;
+}
+
+tr:nth-child(even) {
+  background-color: #999999;
+  /*background-color: #dddddd;*/
+}
+
+.totals{
+  background-color: #EFBFBF;
+}
+
+
+#mostrarButton{
+  background-color: #84bff0;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-weight: bold;
+  border-color: #84bff0;
+  border-radius: 15px;
+}
+
+#mostrarButton:hover{
+  background-color: #FFFFFF;
+  color: #84bff0;
+  font-weight: bold;
+  border-color: #84bff0;
+}
+
+#mostrarButton2{
+  background-color: #84bff0;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-weight: bold;
+  border-color: #84bff0;
+  border-radius: 15px;
+}
+
+#mostrarButton2:hover{
+  background-color: #FFFFFF;
+  color: #84bff0;
+  font-weight: bold;
+  border-color: #84bff0;
+}
+#resultats{
+  margin-bottom: 5%;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #EFEFEF;
+  color: white;
+  text-align: center;
+}
+
+.footerMessage{
+  color: #EFEFEF;
+}
+
+.form-control{
+  font-size: 12px;
+}
+
+.botoMostraMes{
+  float:right;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 1px solid #999999;
+  padding: 0px 0px 5px 0px;
+  font-size: 13px;
+}
+
+.botoMostraMes:hover,
+.botoMostraMes:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
