@@ -13,7 +13,7 @@
         "express": "^4.16.4",
         "jquery": "^3.4.1",
         "magic-globals": "^0.9.1",
-        "nodemailer": "^4.6.8"
+        "nodemailer": "^6.4.16"
     },
     "devDependencies": {
         "browser-sync": "^2.26.7",
